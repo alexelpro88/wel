@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión en Instagram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 350px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .form-group input[type="submit"] {
+            background-color: #3897f0;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .form-group input[type="submit"]:hover {
+            background-color: #357ae8;
+        }
+
+        .centro {
+            text-align: center;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .centro hr {
+            flex: 1;
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 0 10px;
+        }
+
+        .centro span {
+            background-color: #fff;
+            padding: 0 10px;
+        }
+
+        .social-login {
+            text-align: center;
+        }
+
+        .social-login button {
+            margin-right: 10px;
+            padding: 8px 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            background-color: #f3f3f3;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 400px) {
+            .container {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Instagram</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" id="username" name="username" placeholder="Telefono, usuario o correo electronico">
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" name="password" placeholder="Contraseña">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Iniciar sesión">
+                </div>
+            </form>
+            <div class="centro">
+                <hr>
+                <span>O</span>
+                <hr>
+            </div>
+            <div class="social-login">
+                <a href="https://myaccount.google.com/?utm_source=account-marketing-page&utm_medium=go-to-account-button&pli=1" target="_blank">
+                    <button>
+                        <i class="fab fa-google"></i> Continuar con Google
+                    </button>
+                </a>
+                <a href="https://www.facebook.com/login" target="_blank">
+                    <button>
+                        <i class="fab fa-facebook-f"></i> Continuar con Facebook
+                    </button>
+                </a>
+            </div>
+            <p><a href="https://www.instagram.com/accounts/password/reset/">¿Olvidaste tu contraseña?</a></p>
+            <p>¿No tienes una cuenta? <a href="https://www.instagram.com/accounts/emailsignup/">Regístrate</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
